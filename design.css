@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Bad Script');
+@import url('https://fonts.googleapis.com/css?family=Caesar Dressing');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+ul#list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed; 
+    overflow: auto; 
+}
+
+ul#list li a {
+    display: block;
+    color: #000;
+    padding: 40px 29px;
+    text-decoration: none;
+}
+
+ul#list li a:hover {
+    background-color: #5fc536;
+    color: black;
+}
+@keyframes ex {
+    from { transform: translate(-100px, 0);}
+    to {     transform: translate(0, 0);}
+}
+
+div#main {
+margin-left:25%;
+padding:1px 16px;
+height:1000px;
+animation-name: ex;
+animation-duration: 4s;
+}
+
+div#main2 {
+margin-left:25%;
+padding:1px 16px;
+height:1000px;
+animation-name: ex;
+animation-duration: 4s;
+font-size: 20px;
+}
+.back
+{
+    background-image: url("bg1.jpg"); 
+     background-repeat: no-repeat;
+             background-size: cover;
+}
+.back2
+{
+    background-image: url("bg2.jpg"); 
+     background-repeat: no-repeat;
+             background-size: cover;
+}
+.back0
+{
+    background-image: url("bg.jpg"); 
+     background-repeat: no-repeat;
+             background-size: cover;
+}
+.back3
+{
+        background-image: url("bgf.jpg"); 
+         background-repeat: no-repeat;
+             background-size: cover;
+
+}
+.back4
+{
+            background-image: url("bgff.jpg"); 
+             background-repeat: no-repeat;
+             background-size: cover;
+
+}
+.Games
+{
+transform: translateY(-70px);
+}
+.image
+{
+float:right;
+ border-radius: 10px;
+}
+.prog1
+{
+    padding-right: 30px;
+    padding-bottom: 20px;
+        border-radius: 8px;
+
+}
+.back
+{
+background-color: #ffe4e1;
+}
+ul#hobbies
+{
+    font-family: sans-serif;
+    font-style: italic;
+}
+.anim
+{
+    border-radius: 8px;
+}
+.container{ 
+   position: sticky; 
+}
+@keyframes ex1 {
+    from { opacity: 0.5;}
+    to {   opacity: 0.99;}
+}
+h2#me { 
+    font-size: 16px;
+    font-style: italic;
+    background: black;
+    color: white;
+   position: absolute; 
+   animation-name: ex;
+   animation-duration: 2s;
+   top: 10px; 
+   left: 0; 
+   width: 40%; 
+}
+table#t th {
+    background-color: maroon;
+    color: white;
+}
+table#t tr:nth-child(odd)
+{
+        background-color: #03004d;
+        color: white;
+        animation-name: ex1;
+        animation-duration: 3s;
+
+}
+table#t tr:nth-child(even)
+{
+        background-color: #eee;
+        
+  animation-name: ex1;
+        animation-duration: 3;
+}
+table#t tr:hover 
+{
+
+    background-color: #49e76c; 
+}
