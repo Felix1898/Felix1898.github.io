@@ -182,3 +182,41 @@ transform: translateY(15px);
     transform: scale(1.25);
     opacity: 0.75;
 }
+.contain
+{
+    position: relative;
+    margin-left: 200px;
+align-self: center;
+    width: 400px;
+    height: 300px;
+
+}
+.hover1 {
+  position: absolute;
+  align-self: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #c8c8c8;
+  opacity: 0.95;
+  overflow: hidden;
+  width: 0%;
+  height: 100%;
+  transition: .5s ease;
+}
+.contain:hover .hover1
+{
+      width: 100%;
+
+}
+.txt {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
