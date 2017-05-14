@@ -74,8 +74,9 @@ font-size: 20px;
 .back4
 {
             background-image: url("bgff.jpg"); 
-          
-             background-size: 100% 100%;
+                   background-repeat: no-repeat;
+
+             background-size: contain;
 
 }
 .Games
