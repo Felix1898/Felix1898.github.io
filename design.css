@@ -21,7 +21,8 @@ ul#list li a {
 }
 
 ul#list li a:hover {
-    background-color: #5fc536;
+    opacity: 0.98;
+    background-color: #b4ecdb;
     color: black;
 }
 @keyframes ex {
