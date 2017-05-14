@@ -221,7 +221,7 @@ align-self: center;
   -ms-transform: translate(-50%, -50%);
 }
 #wrapper {
-    margin-left:auto;
+    margin-left:0;
     margin-right:auto;
-    width:100%;
+    width:960px;
 }
